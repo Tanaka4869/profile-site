@@ -13,6 +13,18 @@ header {
     padding: 20px;
 }
 
+.header {
+    background-image: url('images/futureCity.jpg');
+    background-size: cover; /* 画像が全体にフィットするように */
+    background-position: center; /* 画像の中央を表示 */
+    background-attachment: fixed; /* スクロールしても背景が固定される */
+    height: 300px; /* ヘッダーの高さを指定（適宜調整） */
+    color: white; /* テキストカラーを白に設定（画像に合わせて調整） */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .profile-img {
     width: 120px;
     height: 120px;
