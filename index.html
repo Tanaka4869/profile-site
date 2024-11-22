@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="マルゲリータ田中のポートフォリオサイト。プログラマーとしてのスキル、プロジェクトを紹介します。">
+    <title>マルゲリータ田中のポートフォリオ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <img src="images/profile.jpg" alt="Profile Image" class="profile-img">
-            <h1>マルゲリータ田中</h1>
-            <p>Web Developer / Java Enthusiast</p>
+
+<header class="header">
+    <div class="overlay"></div>
+    <h1>マルゲリータ田中</h1>
+    <p>プログラマー</p>
+</header>
+
+<main>
+    <!-- 自己紹介セクション -->
+    <section class="about">
+        <h2>自己紹介</h2>
+        <p>社会人歴5年目のプログラマーです。現在、様々な技術を使ってプロジェクトを進めています。</p>
+    </section>
+
+    <!-- スキルセクション -->
+    <section class="skills">
+        <h2>スキル</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git</div>
+            <div class="skill">Java</div>
         </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>私はJavaをはじめとしたプログラミングに触れ、現在はフロントエンド開発にも挑戦中です。</p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="project">
-                <h3>To-Do List App</h3>
-                <p>シンプルなタスク管理アプリ。</p>
-                <a href="https://tanaka4869.github.io/todo-app/" target="_blank">View Project</a>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>ご連絡はこちらまで: <a href="mailto:ntakumi4869@gmail.com">your-email@example.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 マルゲリータ田中. All rights reserved.</p>
-    </footer>
+    </section>
+
+    <!-- 実績セクション -->
+    <section class="projects">
+        <h2>実績</h2>
+        <div class="project-card">
+            <h3><a href="https://github.com/Tanaka4869/todo-app">To-Doアプリの開発</a></h3>
+            <p>JavaScriptとReactを使用して、シンプルなタスク管理アプリを開発。</p>
+        </div>
+        <div class="project-card">
+            <h3><a href="https://github.com/Tanaka4869/profile-site">ポートフォリオサイトの構築</a></h3>
+            <p>HTML, CSS, JavaScriptを使って、自己紹介サイトを開発。</p>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section class="contact">
+        <h2>お問い合わせ</h2>
+        <p>メールアドレス：<a href="mailto:tanaka@example.com">tanaka@example.com</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 マルゲリータ田中</p>
+</footer>
+
 </body>
 </html>
